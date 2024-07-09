@@ -1,35 +1,54 @@
-body, html {
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
     margin: 0;
     padding: 0;
-    font-family: Arial;
-    height: 100%;
+    font-family: 'roboto', 'sans-serif';
     box-sizing: border-box;
 }
 
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+
+
 .navbar {
 
-    background-color: #333;
+    background-color: #1f1e1f;
     color: #fff;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    padding: 10px 20px;
-    height: 50px;
+    padding: 1rem 2rem;
+    width: 100vw;
+    height: 70px;
+    position: fixed;
  
 
 }
 
 .logo {
+    width: 80px;
+    height: auto;
     display: flex;
     align-items: center;
-    width: 50%;
+    flex-direction: column;
 
-    font-size: 24px;
+
 }
 
-.logoFoto {
-    width: 110px;
+
+.logo img {
+
+    width: 100%;
+    height: 100%;
+
+
 }
 
 .nav-links-desktop {
@@ -38,11 +57,20 @@ body, html {
     padding: 0;
     display: flex;
     justify-content: space-around;
+    
 }
 
 .nav-links-desktop li {
     padding: 0 15px;
     
+}
+
+.nav-links-desktop li a {
+    font-size: 1.8rem;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 500;
+    transition: all 200ms ease-in;
 }
 
 .nav-links-desktop a,
@@ -55,7 +83,9 @@ body, html {
 .nav-links-desktop a:hover,
 .nav-links-mobile a:hover {
 
-    color: #F39C12;
+    background-color: #333;
+    color: #ffc526;
+    border-bottom: solid 1px #Ffc526;
 
 }
 
@@ -116,6 +146,45 @@ body, html {
     display: block;
     align-self: flex-end;
 
+}
+
+.primeiraSecao {
+
+    display: flex;
+    flex-direction: column;
+    font-size: 2.5rem;
+    color: #F39C12;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    text-transform: capitalize;
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: 40px;
+    background-image: linear-gradient(rgba(29,29,29,0.8), rgba(29,29,29,0.8)),url('./fundoPizza.webp');
+  
+}
+
+.conteudo-principal {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.conteudo-principal h1 {
+    color: #Ffc506;
+    font-size: 3rem;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+.conteudo-principal h2 {
+    color: white;
 }
 
 
