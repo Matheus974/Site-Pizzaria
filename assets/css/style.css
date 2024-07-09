@@ -33,7 +33,7 @@ html {
 }
 
 .logo {
-    width: 80px;
+    width: 8rem;
     height: auto;
     display: flex;
     align-items: center;
@@ -179,12 +179,44 @@ html {
 .conteudo-principal h1 {
     color: #Ffc506;
     font-size: 3rem;
+    font-weight: 600;
     text-transform: uppercase;
     margin-bottom: 1rem;
 }
 
 .conteudo-principal h2 {
     color: white;
+    font-weight: 400;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+
+}
+
+.conteudo-principal button {
+    background-color: #Ffc506;
+    text-transform: uppercase;
+    width: 195px;
+    height: 60px;
+    cursor: pointer;
+    border-radius: 10px;
+    color: black;
+    font-weight: 700;
+    margin-top: 5rem;
+    transition: all 400ms ease-in;
+}
+
+.conteudo-principal button:hover {
+    border: solid 1px #Ffc506;
+    background-color: transparent;
+    color: #Ffc506;
+
+}
+
+.butaoPrincipal {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
 }
 
 
@@ -200,14 +232,8 @@ html {
         justify-content: space-around;
     }
 
-    .logo {
-        font-size: 18px;
-        width: auto;
-    }
 
-    .logoFoto {
-        width: 80px;
-    }
+
 
 
     .nav-links-desktop {
@@ -221,13 +247,5 @@ html {
 
 @media (max-width: 350px) {
 
-    .logo {
-        font-size: 18px;
-        width: auto;
-    }
-
-    .logoFoto {
-        width: 70px;
-    }
-
+    
 }
