@@ -220,6 +220,49 @@ html {
 }
 
 
+.sobre-nos {
+    background-color: #1f1e1f;
+    width: 100%;
+    padding-bottom: 5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sobre-nos img {
+    width: 400px;
+    height: 400px;
+    margin-top: 10rem;
+    margin-left: 10rem;
+    border: solid 2px white;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contentsobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contentsobre h2 {
+    font-size: 6rem;
+}
+
+.contentsobre p {
+    text-align: center;
+    font-size: 1.8rem;
+    width: 600px;
+
+}
+
+
+
 
 
 @media (max-width: 768px) {
@@ -230,6 +273,11 @@ html {
 
     .navbar {
         justify-content: space-around;
+    }
+
+    .sobre img {
+        width: 150px;
+        height: 150px;
     }
 
 
