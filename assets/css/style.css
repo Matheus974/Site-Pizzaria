@@ -387,6 +387,51 @@ html {
 
 }
 
+.contatos {
+    width: 100%;
+    background-color: #1f1e1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    color: white;
+    padding-bottom: 4rem;
+
+
+}
+
+.contatos h3 {
+    font-size: 6rem;
+    margin-bottom: 3rem;
+    font-family: "Indie Flower";
+}
+
+.secaoContatos {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.secaoContatos i {
+    margin-top: 1rem;
+    cursor: pointer;
+    transition: all 200ms ease-in ;
+}
+
+
+.secaoContatos i:hover {
+    color: #Ffc506;
+}
+
+
+
+
+
+
+
+
 
 
 
